@@ -1,0 +1,276 @@
+
+.box-controller {
+    display: flex;
+    background-color: white;
+    height: 35px;
+    margin-bottom: 5px;
+    align-items: center;
+    transition: visibility 0.5s ease-out;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(15, 15, 15, 0.2);
+    box-shadow: 0px 0px 20px 0px rgba(15, 15, 15, 0.2);
+    background-color: white;
+}
+
+.controller {
+    flex: 1;
+    text-align: center;
+    height: 100%;
+    line-height: 2;
+    cursor: pointer;
+}
+
+.form {
+    resize: horizontal;
+    height: 40px;
+    width: 100%;
+}
+
+
+.selected-controller {
+    transition: border 0.5s ease-out;
+    border-bottom: 1px solid #ec9375;
+}
+
+.article-input {
+    resize: horizontal;
+    height: 150px;
+    width: 100%;
+}
+
+
+.inner-containerPost {
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(15, 15, 15, 0.2);
+    box-shadow: 0px 0px 20px 0px rgba(15, 15, 15, 0.4);
+    background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+/*Css for the layout of the articles page */
+.blog{
+    width:100%
+}
+
+.authorName {
+    float: right;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: 10%;
+    display: block;
+}
+
+.entry {
+    
+}
+
+.button{
+    border:none;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:inherit;
+    background-color:inherit;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
+}
+
+.center{
+    text-align:center!important
+}
+.center-paragraph {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clear:after{
+    content:"";
+    display:table;
+    clear:both
+}
+.clear:before{
+    content:"";
+    display:table;
+    clear:both;
+}
+.comment{
+    width:50%;
+}
+.entry{
+    padding:0.01em 16px;
+}
+.justify{
+    text-align:justify!important;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left{
+    float:left!important;
+}
+.left-align{
+    text-align:left!important;
+}
+.lighten{
+    opacity:0.60;
+}
+.right{
+    float:right!important;
+}
+.right-align{
+    text-align:right!important;
+}
+
+/*Css for submitting article button */
+.articleSubmit {
+    background-color: #ec9375;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+html,
+body,
+#root {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+}
+
+.header {
+  text-align: center;
+  font-size: 30px;
+  line-height: 0.8;
+}
+
+.box {
+  
+  background-color: white;
+  position: center;
+
+  position: relative;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(15, 15, 15, 0.2);
+  box-shadow: 0px 0px 20px 0px rgba(15, 15, 15, 0.4);
+  padding: 10px;
+  background: white;
+
+}
+
+
+div {
+ 
+  border-radius: 5px;
+  padding: 20px;
+}
+
+/*Generic code for entire html */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  .avatar {
+      width: 15%;
+      height: auto;
+  }
+
+  img {
+      display: block;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+.delete {
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+
+}
+
+select {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 35px;
+}
+
+line { 
+    color: black;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
+
+  .buttonsBelow {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+ .navbar {
+     background-color: white;
+     width: 100%;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+ } 
+
+.articlesubmit {
+    background-color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.navbar-item {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display:inline-block;
+}
+
+
+
+
